@@ -1,0 +1,90 @@
+body{
+    font-family: 'JetBrains Mono', monospace;
+    position: absolute;
+    width: 1092px;
+    height: 283px;
+    left: 99px;
+    background: #2C2B3D
+    
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.page {
+    position: absolute;
+    width: 1092px;
+    height: 283px;
+    margin: 202px auto ;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+
+    
+}
+ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+}
+ul li a{
+    color: #FFFFFF;
+}
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+h1 span {
+    color: #00BFA6;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #C2C2C2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+p span {
+    color: #00BFA6;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#footer{
+    position: absolute;
+    width: 568px;
+    height: 55px;
+    left: 356px;
+    top: 235px;
+    color: #FFFFFF;
+}
+#line{
+    width: 568px;
+    height: 0px;
+    margin: 642px auto 23px;
+    border: 1px solid #00BFA6;
+}
+#logoinf {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+
+}
